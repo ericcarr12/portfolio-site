@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+<head>
+<title>ERIC CARR</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/portfolio1.css" />	
+<script src="js/portfolio.js" defer></script>
+<script src="js/chat.js" defer></script>
+</head>	
+<body>	
+
+<!-- NAV -->	
+<nav class="nav-flexspread">
+	<a href="index.html" id="logo"><img src="images/ericcarr.svg" alt="ERIC CARR" /></a>
+	<a id="hamburger" href="#" class="desktop-hide"><img src="images/icons/menu.svg" alt="menu" width="32"/></a>
+	<div class="flexbox mobile-hide">
+        <div class="dropdown">
+            <a class="dropbtn" id="drop-toggle1">Case Studies ▾</a>
+            <div class="dropdown-content dropdown-left" id="drop-menu1">
+                <a href="profit-prophet.html">Profit Prophet</a>
+                <a href="risk-manager.html">Risk Manager</a>
+                <a href="rydergyde.html">RyderGyde</a>
+            </div>
+        </div>
+		<a href="index.html#about">About</a>
+        <div class="dropdown">
+            <a class="dropbtn" id="drop-toggle2">Contact ▾</a>
+            <div class="dropdown-content dropdown-right" id="drop-menu2">
+                <a href="https://calendly.com/ericmcarr-pm/30min" target="_blank">Schedule call</a>
+                <a href="https://www.linkedin.com/in/ericcarr12/" target="_blank" >LinkedIn</a>
+                <a id="contact-desktop" href="" target="_blank">Email</a>
+            </div>
+        </div>
+	</div>
+</nav>
+
+<div class="index-gradient">
+	<div class="access">
+		<div class="latest-news-bar mobile-hide">
+			<span class="latest-news-label">Latest News</span>
+			<span class="latest-news-text" id="latest-news-text">Seeking new opportunities: Lead UX or Principal Product Design roles</span>
+			<button id="latest-news-next" class="btn" aria-label="Next news item">Next&nbsp;<img src="images/icons/chevron-right-white.svg" alt="Next"/></button>
+		</div>
+		<a id="gradient-toggle" class="btn" aria-label="Pause background animation"><img id="gradient-toggle-icon" src="images/icons/pause-circle.svg" alt=""/>&nbsp;<span id="gradient-toggle-label">Pause animation</span></a>
+	</div>
+	<div class="gap2 mobile-hide"></div>
+	<div class="container index-hero">
+		<div class="hero-chat-card">
+			<div>
+				<h1 class="white">Ask me about Eric</h1>
+				<p class="white">Don't struggle to find answers in a static FAQ section. Ask your own questions and get answers based on my actual resume, portfolio, and work&nbsp;experience.</p>
+			</div>
+			<div class="chat-body">
+				<div id="chat-messages">
+					<div class="chat-bubble chat-bubble-bot">Hello. Ask me anything about Eric's experience, skills, or fit for a role. You can even paste a job description and ask if he's a match.</div>
+				</div>
+				<div id="chat-input-row">
+					<input id="chat-input" type="text" placeholder="Ask me a question..." />
+					<button id="chat-send" class="btn-yellow"><img src="images/icons/arrow-up.svg" alt="Send"/></button>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+<!-- CASE STUDIES -->
+<section id="casestudies" class="container">
+	<h2>Selected works</h2>
+	<br>
+	<div class="case-study-row">
+		<div class="case-card">
+			<img srcset="prophet/images/prophet_cardimg.webp 1x, prophet/images/prophet_cardimg@2x.webp 2x" src="prophet/images/prophet-cardimg.jpg" alt="Profit Prophet" class="img-responsive" /><br><br>
+			<h2 class="killmargin">Profit Prophet</h2><br>
+			<p>Find the right price in seconds &mdash; one that balances profit and value</p><br>
+			<a href="profit-prophet.html" class="main-link spec-btn btn-yellow block width100">View case study</a>
+		</div>
+		<div class="case-card">
+			<img srcset="risk/images/risk_cardimg.webp 1x, risk/images/risk_cardimg@2x.webp 2x" src="risk/images/risk-cardimg.jpg" alt="Risk Manager" class="img-responsive" /><br><br>
+			<h2 class="killmargin">Risk Manager</h2><br>
+			<p>Resolve compliance issues fast with AI&#8209;powered guidance</p><br>
+			<a href="risk-manager.html" class="main-link spec-btn btn-yellow block">View case study</a>
+		</div>
+		<div class="case-card">
+			<img srcset="rydergyde/images/rydergyde_cardimg.webp 1x, rydergyde/images/rydergyde_cardimg@2x.webp 2x" src="rydergyde/images/rydergyde-cardimg.jpg" alt="RyderGyde" class="img-responsive" /><br><br>
+			<h2 class="killmargin">RyderGyde</h2><br>
+			<p>Get Roadside Assistance fast, right when you need it</p><br>
+			<a href="rydergyde.html" class="main-link spec-btn btn-yellow block">View case study</a>
+		</div>
+	</div>	
+</section>
+
+
+<!-- WHAT IF -->
+<section class="container max-char">
+	<h2>What if these case studies don't match up with your next project?</h2>
+	<h4>A solid creative strategy and strong designer can solve any problem. Throughout my career, I've solved many problems under different job&nbsp;titles.</h4>
+	<br>
+	<div class="accordion">
+		<div class="card">
+			<label class="toggle-section">
+				<input type="checkbox" class="toggle-input">
+				<div class="target">
+					<h3 class="blue">Design Foundations</h3>
+				</div>
+				<div class="toggle-grid">
+					<div class="toggle-content">
+						<h4>My design career started in the fundamentals, then grew with the web.</h4>
+						<ul>
+							<li>Designed logos, packaging, and marketing materials across every industry and&nbsp;format</li>
+							<li>Created flyers, merch, t&#8209;shirts, magazines, album covers &mdash; even an airplane&nbsp;livery</li>
+							<li>Built websites for a wide range of clients as the web became the primary&nbsp;canvas</li>
+							<li>Designed emails, banners, and landing pages that consistently drove clicks and&nbsp;sales</li>
+						</ul>
+					</div>
+				</div>
+			</label>
+		</div>
+		<div class="card">
+			<label class="toggle-section">
+				<input type="checkbox" class="toggle-input">
+				<div class="target">
+					<h3 class="blue">Creative Strategy</h3>
+				</div>
+				<div class="toggle-grid">
+					<div class="toggle-content">
+						<h4>Advertising sharpened how I think about audiences and ideas.</h4>
+						<ul>
+							<li>Thought creatively under pressure to solve advertising&nbsp;challenges</li>
+							<li>Targeted audiences effectively across all forms of&nbsp;media</li>
+							<li>Worked hands&#8209;on at advertising agencies on campaigns for clients you've definitely heard&nbsp;of</li>
+						</ul>
+					</div>
+				</div>
+			</label>
+		</div>
+		<div class="card">
+			<label class="toggle-section">
+				<input type="checkbox" class="toggle-input">
+				<div class="target">
+					<h3 class="blue">Technical Execution</h3>
+				</div>
+				<div class="toggle-grid">
+					<div class="toggle-content">
+						<h4>I learned to code so my designs would ship exactly as intended.</h4>
+						<ul>
+							<li>Built sites that matched the final delivered design pixel&#8209;for&#8209;pixel</li>
+							<li>Mastered responsiveness across all screen sizes and enforced accessibility on every&nbsp;project</li>
+							<li>Created email and landing page templates that cut production time by&nbsp;99%</li>
+							<li>Generated significant leads and sales through front-end&nbsp;execution</li>
+						</ul>
+					</div>
+				</div>
+			</label>
+		</div>
+	</div>
+</section>
+
+<section class="container max-char">
+	<h2>How I lead design teams</h2>
+	<p>I mentor by asking, not telling. I serve as a second pair of eyes on every project — catching visual and content mistakes, and questioning whether copy actually matches the design brief before it ships. Rather than hand designers answers, I ask what a challenge isn't, to sharpen what it actually is, and have them distill each problem into a single guiding sentence before we move to solutions. I review front-end code alongside visual work, so craft carries all the way to production — and I keep the team's design materials and tools current, so everyone works from the same source of&nbsp;truth.</p>
+	<p>I'm also hands-on with what's next: currently mastering Python and learning to build and leverage AI agents and LLMs like Claude and ChatGPT, and embracing the technologies reshaping how design gets&nbsp;done.</p>
+</section>
+
+
+<!-- BRANDS -->
+<section class="brands white-bg container">
+	<h3 class="text-center">Selected Clients</h3><br>
+	<div class="logo-marquee container">
+		<div class="logo-row">
+		<div><img src="images/logos/logo-pwc.svg"/></div>
+		<div><img src="images/logos/logo-ncl.svg" /></div>
+		<div><img src="images/logos/logo-bmw.svg" /></div>
+		<div><img src="images/logos/logo-ryder.svg" /></div>
+		<div><img src="images/logos/logo-dish.svg" /></div>
+		<div><img src="images/logos/logo-kf.svg" /></div>
+		<div><img src="images/logos/logo-breville.svg" /></div>
+		<div><img src="images/logos/logo-pwc.svg"/></div>
+		<div><img src="images/logos/logo-ncl.svg" /></div>
+		<div><img src="images/logos/logo-bmw.svg" /></div>
+		<div><img src="images/logos/logo-ryder.svg" /></div>
+		<div><img src="images/logos/logo-dish.svg" /></div>
+		<div><img src="images/logos/logo-kf.svg" /></div>
+		<div><img src="images/logos/logo-breville.svg" /></div>
+		</div>	
+	</div>
+</section>
+
+
+<!-- ABOUT-->
+<section id="about" class="container max-char">
+	<h2>About</h2>
+	<p>Over 20 years of creative experience, including a decade leading product and design teams in agile environments. I work across the full design thinking process &mdash; from ideation to delivery &mdash; partnering with organizations from small businesses to Fortune 500 companies to build user&#8209;centric solutions that drive sales and&nbsp;engagement.</p>
+	<p>I specialize in high-complexity enterprise systems — the kind where the real design problem isn't the interface, it's making sense of permissions, workflows, and edge cases at scale. That's deliberate: it's where design work compounds across an entire organization, not just a single&nbsp;screen.</p>
+	<p>I'm drawn to complex challenges and to the teams solving them. I mentor by asking rather than telling — serving as a second pair of eyes on every project, from content and visual craft to the code that ships it — because the best products come from teams, not&nbsp;individuals.</p>
+	<div class="gap1"></div>
+	<div class="skills">
+		<div>
+			<h4 class="killmargin">Strategy & Leadership</h4>
+			<ul class="vertical-list">
+				<li>Team leadership</li>
+				<li>Creative concept development</li>
+				<li>Agile product development</li>
+				<li>Digital marketing</li>
+			</ul>
+		</div>
+		<div>
+			<h4 class="killmargin">Design Process</h4>
+			<ul class="vertical-list">	
+				<li>Interaction design</li>
+				<li>Rapid prototyping</li>
+				<li>Responsive web design</li>
+				<li>Design system creation &amp; management</li>
+				<li>UI component design</li>
+				<li>Wireframing &amp; mock-ups</li>
+			</ul>
+		</div>	
+		<div>
+			<h4 class="killmargin">Research &amp; Emerging Tech</h4>
+			<ul class="vertical-list">	
+				<li>Usability testing</li>
+				<li>User flows</li>
+				<li>User research</li>
+				<li>Front&#8209;end web development</li>
+				<li>Generative AI</li>
+			</ul>
+		</div>
+		<div>
+			<h4 class="killmargin">Design Tools</h4>
+			<ul class="vertical-list">
+				<li>Figma</li>
+				<li>Sketch</li>
+				<li>Photoshop</li>
+				<li>Illustrator</li>
+				<li>Dreamweaver</li>
+				<li>InDesign</li>
+			</ul>
+		</div>
+		<div>
+			<h4 class="killmargin">Project &amp; Collaboration</h4>
+			<ul class="vertical-list">
+				<li>Jira</li>
+				<li>Miro</li>
+				<li>Pendo</li>
+			</ul>
+		</div>
+		<div>	
+			<h4 class="killmargin">Code</h4>
+			<ul class="vertical-list">
+				<li>HTML/CSS</li>
+				<li>JavaScript</li>
+				<li>Python</li>
+				<li>Visual Studio Code</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!-- QUOTES -->
+<section class="container max-char">
+	<h2>Listen to my teammates</h2>
+	<div>
+		<h3 class="blue quotes">“He's endlessly curious, thrives on solving complex problems, and approaches every challenge with a systems-thinking mindset. You can tell he truly loves the work, and that passion&nbsp;shows.”</h3>
+		<div class="quoter">
+			<h4>&mdash; Karen Ellis&#8209;Ritter, Team Lead</h4>
+		</div>
+	</div>
+	<br>
+	<div>
+		<h3 class="blue quotes">“He's dedicated to the work and will do whatever it takes to get the job done. But his real passion is coming up with great&nbsp;ideas.”</h3>
+		<div class="quoter">
+			<h4>&mdash; Tucker Hassler, Creative Director</h4>
+		</div>
+	</div>
+	<br>
+	<div>
+		<h3 class="blue quotes">“Do not work with this man… unless you want him to rock your world! Great creative, voted 'funniest guy in the office', and an extremely hard&nbsp;worker.”</h3>
+		<div class="quoter">
+			<h4>&mdash; Michelle Bielecki, Senior Copywriter</h4>
+		</div>	
+	</div>
+</section>
+
+<!-- FOOTER -->
+<section class="black-bg">
+    <div class="container max-char">
+        <h2 class="white padbottom">Have an opportunity? Let's&nbsp;connect.</h2>
+        <div class="button-row">
+            <a href="https://calendly.com/ericmcarr-pm/30min" class="btn btn-yellow" target="_blank"><img src="images/icons/call.svg" /><span class="mobile-hide">&nbsp;Schedule call</span></a>
+            <a href="https://www.linkedin.com/in/ericcarr12/" class="btn btn-yellow" target="_blank" ><img src="images/icons/linkedin.svg" /><span class="mobile-hide">&nbsp;LinkedIn</span></a>
+            <a id="contact-footer" href="" class="btn btn-yellow" target="_blank"><img src="images/icons/mail.svg" /><span class="mobile-hide">&nbsp;Email</span></a>
+        </div>    
+    </div>
+</section>
+
+
+<!-- SIDE NAV FOR MOBILE -->
+<aside id="sideNav">
+	<div class="close-box">
+        <a id="close" class="block">&times;</a>
+    </div>
+	<ul>
+        <li><a href="#" class="disabled">Home</a></li>
+		<li><a href="profit-prophet.html">Profit Prophet</a></li>
+		<li><a href="risk-manager.html">Risk Manager</a></li>
+		<li><a href="rydergyde.html">RyderGyde</a></li>
+		<li><a href="index.html#about">About</a></li>
+        <li><a href="https://calendly.com/ericmcarr-pm/30min" target="_blank">Schedule a Call</a></li>
+		<li><a href="https://www.linkedin.com/in/ericcarr12/" target="_blank">LinkedIn</a></li>
+		<li><a id="contact-mobile" href="" target="_blank">Email</a></li>
+	</ul>	
+</aside>
+
+</body>	
+</html>
